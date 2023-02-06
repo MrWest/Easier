@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MLBPFlujo" targetNamespace="http://tempuri.org/MLBPFlujo.xsd" xmlns:mstns="http://tempuri.org/MLBPFlujo.xsd" xmlns="http://tempuri.org/MLBPFlujo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="MLBConnectionString3" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MLBConnectionString3 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.MLB.Properties.Settings.GlobalReference.Default.MLBConnectionString3" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="MLBConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MLBConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.MLB.Properties.Settings.GlobalReference.Default.MLBConnectionString2" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PFlujoTableAdapter" GeneratorDataComponentClassName="PFlujoTableAdapter" Name="PFlujo" UserDataComponentName="PFlujoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MLBConnectionString2 (Settings)" DbObjectName="MLB.dbo.PFlujo" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT Id, IDate, Tipo,Concepto, Importe, IInicial, IFinal, Balance, UName, Moneda,FechaI,FechaF FROM dbo.PFlujo</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Id" DataSetColumn="Id" />
+              <Mapping SourceColumn="IDate" DataSetColumn="IDate" />
+              <Mapping SourceColumn="Tipo" DataSetColumn="Tipo" />
+              <Mapping SourceColumn="Concepto" DataSetColumn="Concepto" />
+              <Mapping SourceColumn="Importe" DataSetColumn="Importe" />
+              <Mapping SourceColumn="UName" DataSetColumn="UName" />
+              <Mapping SourceColumn="Moneda" DataSetColumn="Moneda" />
+              <Mapping SourceColumn="IInicial" DataSetColumn="IInicial" />
+              <Mapping SourceColumn="Balance" DataSetColumn="Balance" />
+              <Mapping SourceColumn="IFinal" DataSetColumn="IFinal" />
+              <Mapping SourceColumn="FechaI" DataSetColumn="FechaI" />
+              <Mapping SourceColumn="FechaF" DataSetColumn="FechaF" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MLBPFlujo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="MLBPFlujo" msprop:Generator_DataSetName="MLBPFlujo" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PFlujo" msprop:Generator_UserTableName="PFlujo" msprop:Generator_RowDeletedName="PFlujoRowDeleted" msprop:Generator_RowChangedName="PFlujoRowChanged" msprop:Generator_RowClassName="PFlujoRow" msprop:Generator_RowChangingName="PFlujoRowChanging" msprop:Generator_RowEvArgName="PFlujoRowChangeEvent" msprop:Generator_RowEvHandlerName="PFlujoRowChangeEventHandler" msprop:Generator_TableClassName="PFlujoDataTable" msprop:Generator_TableVarName="tablePFlujo" msprop:Generator_RowDeletingName="PFlujoRowDeleting" msprop:Generator_TablePropName="PFlujo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInTable="IdColumn" type="xs:int" />
+              <xs:element name="IDate" msprop:Generator_UserColumnName="IDate" msprop:Generator_ColumnPropNameInRow="IDate" msprop:Generator_ColumnVarNameInTable="columnIDate" msprop:Generator_ColumnPropNameInTable="IDateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tipo" msprop:Generator_UserColumnName="Tipo" msprop:Generator_ColumnPropNameInRow="Tipo" msprop:Generator_ColumnVarNameInTable="columnTipo" msprop:Generator_ColumnPropNameInTable="TipoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Concepto" msprop:Generator_UserColumnName="Concepto" msprop:Generator_ColumnPropNameInRow="Concepto" msprop:Generator_ColumnVarNameInTable="columnConcepto" msprop:Generator_ColumnPropNameInTable="ConceptoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Importe" msprop:Generator_UserColumnName="Importe" msprop:Generator_ColumnPropNameInRow="Importe" msprop:Generator_ColumnVarNameInTable="columnImporte" msprop:Generator_ColumnPropNameInTable="ImporteColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UName" msprop:Generator_UserColumnName="UName" msprop:Generator_ColumnPropNameInRow="UName" msprop:Generator_ColumnVarNameInTable="columnUName" msprop:Generator_ColumnPropNameInTable="UNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Moneda" msprop:Generator_UserColumnName="Moneda" msprop:Generator_ColumnPropNameInRow="Moneda" msprop:Generator_ColumnVarNameInTable="columnMoneda" msprop:Generator_ColumnPropNameInTable="MonedaColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IInicial" msprop:Generator_UserColumnName="IInicial" msprop:Generator_ColumnPropNameInRow="IInicial" msprop:Generator_ColumnVarNameInTable="columnIInicial" msprop:Generator_ColumnPropNameInTable="IInicialColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Balance" msprop:Generator_UserColumnName="Balance" msprop:Generator_ColumnPropNameInRow="Balance" msprop:Generator_ColumnVarNameInTable="columnBalance" msprop:Generator_ColumnPropNameInTable="BalanceColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IFinal" msprop:Generator_UserColumnName="IFinal" msprop:Generator_ColumnPropNameInRow="IFinal" msprop:Generator_ColumnVarNameInTable="columnIFinal" msprop:Generator_ColumnPropNameInTable="IFinalColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FechaI" msprop:Generator_UserColumnName="FechaI" msprop:Generator_ColumnPropNameInRow="FechaI" msprop:Generator_ColumnVarNameInTable="columnFechaI" msprop:Generator_ColumnPropNameInTable="FechaIColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FechaF" msprop:Generator_UserColumnName="FechaF" msprop:Generator_ColumnPropNameInRow="FechaF" msprop:Generator_ColumnVarNameInTable="columnFechaF" msprop:Generator_ColumnPropNameInTable="FechaFColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

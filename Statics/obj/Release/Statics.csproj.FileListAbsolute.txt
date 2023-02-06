@@ -1,0 +1,8 @@
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\Statics\bin\Release\Statics.exe
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\Statics\bin\Release\Statics.pdb
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\Statics\obj\Release\ResolveAssemblyReference.cache
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\Statics\obj\Release\Statics.Form1.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\Statics\obj\Release\Statics.Properties.Resources.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\Statics\obj\Release\Statics.csproj.GenerateResource.Cache
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\Statics\obj\Release\Statics.exe
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\Statics\obj\Release\Statics.pdb

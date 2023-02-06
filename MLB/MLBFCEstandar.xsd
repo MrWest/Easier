@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MLBFCEstandar" targetNamespace="http://tempuri.org/MLBFCEstandar.xsd" xmlns:mstns="http://tempuri.org/MLBFCEstandar.xsd" xmlns="http://tempuri.org/MLBFCEstandar.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="MLBConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MLBConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.MLB.Properties.Settings.GlobalReference.Default.MLBConnectionString2" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="FCEstandarTableAdapter" GeneratorDataComponentClassName="FCEstandarTableAdapter" Name="FCEstandar" UserDataComponentName="FCEstandarTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MLBConnectionString2 (Settings)" DbObjectName="MLB.dbo.FCEstandar" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT UName, Moneda, Tipo, Grupo, Concepto, Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre,Clasif,Date FROM dbo.FCEstandar</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="UName" DataSetColumn="UName" />
+              <Mapping SourceColumn="Moneda" DataSetColumn="Moneda" />
+              <Mapping SourceColumn="Tipo" DataSetColumn="Tipo" />
+              <Mapping SourceColumn="Concepto" DataSetColumn="Concepto" />
+              <Mapping SourceColumn="Enero" DataSetColumn="Enero" />
+              <Mapping SourceColumn="Febrero" DataSetColumn="Febrero" />
+              <Mapping SourceColumn="Marzo" DataSetColumn="Marzo" />
+              <Mapping SourceColumn="Abril" DataSetColumn="Abril" />
+              <Mapping SourceColumn="Mayo" DataSetColumn="Mayo" />
+              <Mapping SourceColumn="Junio" DataSetColumn="Junio" />
+              <Mapping SourceColumn="Julio" DataSetColumn="Julio" />
+              <Mapping SourceColumn="Agosto" DataSetColumn="Agosto" />
+              <Mapping SourceColumn="Septiembre" DataSetColumn="Septiembre" />
+              <Mapping SourceColumn="Octubre" DataSetColumn="Octubre" />
+              <Mapping SourceColumn="Noviembre" DataSetColumn="Noviembre" />
+              <Mapping SourceColumn="Diciembre" DataSetColumn="Diciembre" />
+              <Mapping SourceColumn="Grupo" DataSetColumn="Grupo" />
+              <Mapping SourceColumn="Clasif" DataSetColumn="Clasif" />
+              <Mapping SourceColumn="Date" DataSetColumn="Date" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MLBFCEstandar" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="MLBFCEstandar" msprop:Generator_DataSetName="MLBFCEstandar" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="FCEstandar" msprop:Generator_UserTableName="FCEstandar" msprop:Generator_RowDeletedName="FCEstandarRowDeleted" msprop:Generator_RowChangedName="FCEstandarRowChanged" msprop:Generator_RowClassName="FCEstandarRow" msprop:Generator_RowChangingName="FCEstandarRowChanging" msprop:Generator_RowEvArgName="FCEstandarRowChangeEvent" msprop:Generator_RowEvHandlerName="FCEstandarRowChangeEventHandler" msprop:Generator_TableClassName="FCEstandarDataTable" msprop:Generator_TableVarName="tableFCEstandar" msprop:Generator_RowDeletingName="FCEstandarRowDeleting" msprop:Generator_TablePropName="FCEstandar">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UName" msprop:Generator_UserColumnName="UName" msprop:Generator_ColumnPropNameInRow="UName" msprop:Generator_ColumnVarNameInTable="columnUName" msprop:Generator_ColumnPropNameInTable="UNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Moneda" msprop:Generator_UserColumnName="Moneda" msprop:Generator_ColumnPropNameInRow="Moneda" msprop:Generator_ColumnVarNameInTable="columnMoneda" msprop:Generator_ColumnPropNameInTable="MonedaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tipo" msprop:Generator_UserColumnName="Tipo" msprop:Generator_ColumnPropNameInRow="Tipo" msprop:Generator_ColumnVarNameInTable="columnTipo" msprop:Generator_ColumnPropNameInTable="TipoColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Concepto" msprop:Generator_UserColumnName="Concepto" msprop:Generator_ColumnPropNameInRow="Concepto" msprop:Generator_ColumnVarNameInTable="columnConcepto" msprop:Generator_ColumnPropNameInTable="ConceptoColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Enero" msprop:Generator_UserColumnName="Enero" msprop:Generator_ColumnPropNameInRow="Enero" msprop:Generator_ColumnVarNameInTable="columnEnero" msprop:Generator_ColumnPropNameInTable="EneroColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Febrero" msprop:Generator_UserColumnName="Febrero" msprop:Generator_ColumnPropNameInRow="Febrero" msprop:Generator_ColumnVarNameInTable="columnFebrero" msprop:Generator_ColumnPropNameInTable="FebreroColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Marzo" msprop:Generator_UserColumnName="Marzo" msprop:Generator_ColumnPropNameInRow="Marzo" msprop:Generator_ColumnVarNameInTable="columnMarzo" msprop:Generator_ColumnPropNameInTable="MarzoColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Abril" msprop:Generator_UserColumnName="Abril" msprop:Generator_ColumnPropNameInRow="Abril" msprop:Generator_ColumnVarNameInTable="columnAbril" msprop:Generator_ColumnPropNameInTable="AbrilColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Mayo" msprop:Generator_UserColumnName="Mayo" msprop:Generator_ColumnPropNameInRow="Mayo" msprop:Generator_ColumnVarNameInTable="columnMayo" msprop:Generator_ColumnPropNameInTable="MayoColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Junio" msprop:Generator_UserColumnName="Junio" msprop:Generator_ColumnPropNameInRow="Junio" msprop:Generator_ColumnVarNameInTable="columnJunio" msprop:Generator_ColumnPropNameInTable="JunioColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Julio" msprop:Generator_UserColumnName="Julio" msprop:Generator_ColumnPropNameInRow="Julio" msprop:Generator_ColumnVarNameInTable="columnJulio" msprop:Generator_ColumnPropNameInTable="JulioColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Agosto" msprop:Generator_UserColumnName="Agosto" msprop:Generator_ColumnPropNameInRow="Agosto" msprop:Generator_ColumnVarNameInTable="columnAgosto" msprop:Generator_ColumnPropNameInTable="AgostoColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Septiembre" msprop:Generator_UserColumnName="Septiembre" msprop:Generator_ColumnPropNameInRow="Septiembre" msprop:Generator_ColumnVarNameInTable="columnSeptiembre" msprop:Generator_ColumnPropNameInTable="SeptiembreColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Octubre" msprop:Generator_UserColumnName="Octubre" msprop:Generator_ColumnPropNameInRow="Octubre" msprop:Generator_ColumnVarNameInTable="columnOctubre" msprop:Generator_ColumnPropNameInTable="OctubreColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Noviembre" msprop:Generator_UserColumnName="Noviembre" msprop:Generator_ColumnPropNameInRow="Noviembre" msprop:Generator_ColumnVarNameInTable="columnNoviembre" msprop:Generator_ColumnPropNameInTable="NoviembreColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Diciembre" msprop:Generator_UserColumnName="Diciembre" msprop:Generator_ColumnPropNameInRow="Diciembre" msprop:Generator_ColumnVarNameInTable="columnDiciembre" msprop:Generator_ColumnPropNameInTable="DiciembreColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Grupo" msprop:Generator_UserColumnName="Grupo" msprop:Generator_ColumnVarNameInTable="columnGrupo" msprop:Generator_ColumnPropNameInRow="Grupo" msprop:Generator_ColumnPropNameInTable="GrupoColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Clasif" msprop:Generator_UserColumnName="Clasif" msprop:Generator_ColumnPropNameInRow="Clasif" msprop:Generator_ColumnVarNameInTable="columnClasif" msprop:Generator_ColumnPropNameInTable="ClasifColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Date" msprop:Generator_UserColumnName="Date" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInTable="DateColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

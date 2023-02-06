@@ -1,0 +1,32 @@
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\EasierActivator\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\EasierActivator\obj\Debug\EasierActivator.Form1.resources
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\EasierActivator\obj\Debug\EasierActivator.csproj.GenerateResource.Cache
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\EasierActivator\bin\Debug\EasierActivator.exe
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\EasierActivator\bin\Debug\EasierActivator.pdb
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\EasierActivator\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\EasierActivator\obj\Debug\EasierActivator.Form1.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\EasierActivator\obj\Debug\EasierActivator.Properties.Resources.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\EasierActivator\obj\Debug\EasierActivator.csproj.GenerateResource.Cache
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\EasierActivator\obj\Debug\EasierActivator.exe
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\EasierActivator\obj\Debug\EasierActivator.pdb
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\EasierActivator\bin\Debug\EasierActivator.exe
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\EasierActivator\bin\Debug\EasierActivator.pdb
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\EasierActivator\obj\Debug\EasierActivator.Properties.Resources.resources
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\EasierActivator\obj\Debug\EasierActivator.exe
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\EasierActivator\obj\Debug\EasierActivator.pdb
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\EasierActivator\bin\Debug\EasierActivator.exe
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\EasierActivator\bin\Debug\EasierActivator.pdb
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\EasierActivator\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\EasierActivator\obj\Debug\EasierActivator.Form1.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\EasierActivator\obj\Debug\EasierActivator.Properties.Resources.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\EasierActivator\obj\Debug\EasierActivator.csproj.GenerateResource.Cache
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\EasierActivator\obj\Debug\EasierActivator.exe
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\EasierActivator\obj\Debug\EasierActivator.pdb
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\EasierActivator\bin\Debug\EasierActivator.exe
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\EasierActivator\bin\Debug\EasierActivator.pdb
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\EasierActivator\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\EasierActivator\obj\Debug\EasierActivator.Form1.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\EasierActivator\obj\Debug\EasierActivator.Properties.Resources.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\EasierActivator\obj\Debug\EasierActivator.csproj.GenerateResource.Cache
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\EasierActivator\obj\Debug\EasierActivator.exe
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\EasierActivator\obj\Debug\EasierActivator.pdb

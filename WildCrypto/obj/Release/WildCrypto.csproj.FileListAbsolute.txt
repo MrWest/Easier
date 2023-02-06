@@ -1,0 +1,5 @@
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\WildCrypto\bin\Release\WildCrypto.dll
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\WildCrypto\bin\Release\WildCrypto.pdb
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\WildCrypto\obj\Release\ResolveAssemblyReference.cache
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\WildCrypto\obj\Release\WildCrypto.dll
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\WildCrypto\obj\Release\WildCrypto.pdb

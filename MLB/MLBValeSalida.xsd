@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MLBValeSalida" targetNamespace="http://tempuri.org/MLBValeSalida.xsd" xmlns:mstns="http://tempuri.org/MLBValeSalida.xsd" xmlns="http://tempuri.org/MLBValeSalida.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="MLBConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MLBConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.MLB.Properties.Settings.GlobalReference.Default.MLBConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PValeSalidaTableAdapter" GeneratorDataComponentClassName="PValeSalidaTableAdapter" Name="PValeSalida" UserDataComponentName="PValeSalidaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MLBConnectionString1 (Settings)" DbObjectName="MLB.dbo.PValeSalida" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Producto, UM, Cantidad, Precio, Importe FROM dbo.PValeSalida</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Producto" DataSetColumn="Producto" />
+              <Mapping SourceColumn="UM" DataSetColumn="UM" />
+              <Mapping SourceColumn="Cantidad" DataSetColumn="Cantidad" />
+              <Mapping SourceColumn="Precio" DataSetColumn="Precio" />
+              <Mapping SourceColumn="Importe" DataSetColumn="Importe" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MLBValeSalida" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="MLBValeSalida" msprop:Generator_UserDSName="MLBValeSalida" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PValeSalida" msprop:Generator_UserTableName="PValeSalida" msprop:Generator_RowDeletedName="PValeSalidaRowDeleted" msprop:Generator_TableClassName="PValeSalidaDataTable" msprop:Generator_RowChangedName="PValeSalidaRowChanged" msprop:Generator_RowClassName="PValeSalidaRow" msprop:Generator_RowChangingName="PValeSalidaRowChanging" msprop:Generator_RowEvArgName="PValeSalidaRowChangeEvent" msprop:Generator_RowEvHandlerName="PValeSalidaRowChangeEventHandler" msprop:Generator_TablePropName="PValeSalida" msprop:Generator_TableVarName="tablePValeSalida" msprop:Generator_RowDeletingName="PValeSalidaRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Producto" msprop:Generator_UserColumnName="Producto" msprop:Generator_ColumnPropNameInRow="Producto" msprop:Generator_ColumnVarNameInTable="columnProducto" msprop:Generator_ColumnPropNameInTable="ProductoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UM" msprop:Generator_UserColumnName="UM" msprop:Generator_ColumnPropNameInRow="UM" msprop:Generator_ColumnVarNameInTable="columnUM" msprop:Generator_ColumnPropNameInTable="UMColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Cantidad" msprop:Generator_UserColumnName="Cantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Precio" msprop:Generator_UserColumnName="Precio" msprop:Generator_ColumnPropNameInRow="Precio" msprop:Generator_ColumnVarNameInTable="columnPrecio" msprop:Generator_ColumnPropNameInTable="PrecioColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Importe" msprop:Generator_UserColumnName="Importe" msprop:Generator_ColumnPropNameInRow="Importe" msprop:Generator_ColumnVarNameInTable="columnImporte" msprop:Generator_ColumnPropNameInTable="ImporteColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

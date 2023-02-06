@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MLBPResIng" targetNamespace="http://tempuri.org/MLBPResIng.xsd" xmlns:mstns="http://tempuri.org/MLBPResIng.xsd" xmlns="http://tempuri.org/MLBPResIng.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="MLBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MLBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.MLB.Properties.Settings.GlobalReference.Default.MLBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PResIngTableAdapter" GeneratorDataComponentClassName="PResIngTableAdapter" Name="PResIng" UserDataComponentName="PResIngTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MLBConnectionString (Settings)" DbObjectName="MLB.dbo.PResIng" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT Day, Month, InHoy, InHastaHoy, CostHoy, CostHastaHoy, IngAcum, CostAcum  FROM dbo.PResIng</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Day" DataSetColumn="Day" />
+              <Mapping SourceColumn="Month" DataSetColumn="Month" />
+              <Mapping SourceColumn="InHoy" DataSetColumn="InHoy" />
+              <Mapping SourceColumn="InHastaHoy" DataSetColumn="InHastaHoy" />
+              <Mapping SourceColumn="CostHoy" DataSetColumn="CostHoy" />
+              <Mapping SourceColumn="CostHastaHoy" DataSetColumn="CostHastaHoy" />
+              <Mapping SourceColumn="IngAcum" DataSetColumn="IngAcum" />
+              <Mapping SourceColumn="CostAcum" DataSetColumn="CostAcum" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MLBPResIng" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="MLBPResIng" msprop:Generator_DataSetName="MLBPResIng" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PResIng" msprop:Generator_UserTableName="PResIng" msprop:Generator_RowDeletedName="PResIngRowDeleted" msprop:Generator_RowChangedName="PResIngRowChanged" msprop:Generator_RowClassName="PResIngRow" msprop:Generator_RowChangingName="PResIngRowChanging" msprop:Generator_RowEvArgName="PResIngRowChangeEvent" msprop:Generator_RowEvHandlerName="PResIngRowChangeEventHandler" msprop:Generator_TableClassName="PResIngDataTable" msprop:Generator_TableVarName="tablePResIng" msprop:Generator_RowDeletingName="PResIngRowDeleting" msprop:Generator_TablePropName="PResIng">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Day" msprop:Generator_UserColumnName="Day" msprop:Generator_ColumnPropNameInRow="Day" msprop:Generator_ColumnVarNameInTable="columnDay" msprop:Generator_ColumnPropNameInTable="DayColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Month" msprop:Generator_UserColumnName="Month" msprop:Generator_ColumnPropNameInRow="Month" msprop:Generator_ColumnVarNameInTable="columnMonth" msprop:Generator_ColumnPropNameInTable="MonthColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="InHoy" msprop:Generator_UserColumnName="InHoy" msprop:Generator_ColumnPropNameInRow="InHoy" msprop:Generator_ColumnVarNameInTable="columnInHoy" msprop:Generator_ColumnPropNameInTable="InHoyColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="InHastaHoy" msprop:Generator_UserColumnName="InHastaHoy" msprop:Generator_ColumnPropNameInRow="InHastaHoy" msprop:Generator_ColumnVarNameInTable="columnInHastaHoy" msprop:Generator_ColumnPropNameInTable="InHastaHoyColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CostHoy" msprop:Generator_UserColumnName="CostHoy" msprop:Generator_ColumnPropNameInRow="CostHoy" msprop:Generator_ColumnVarNameInTable="columnCostHoy" msprop:Generator_ColumnPropNameInTable="CostHoyColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CostHastaHoy" msprop:Generator_UserColumnName="CostHastaHoy" msprop:Generator_ColumnPropNameInRow="CostHastaHoy" msprop:Generator_ColumnVarNameInTable="columnCostHastaHoy" msprop:Generator_ColumnPropNameInTable="CostHastaHoyColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IngAcum" msprop:Generator_UserColumnName="IngAcum" msprop:Generator_ColumnPropNameInRow="IngAcum" msprop:Generator_ColumnVarNameInTable="columnIngAcum" msprop:Generator_ColumnPropNameInTable="IngAcumColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CostAcum" msprop:Generator_UserColumnName="CostAcum" msprop:Generator_ColumnPropNameInRow="CostAcum" msprop:Generator_ColumnVarNameInTable="columnCostAcum" msprop:Generator_ColumnPropNameInTable="CostAcumColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

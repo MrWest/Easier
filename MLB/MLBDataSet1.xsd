@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MLBDataSet1" targetNamespace="http://tempuri.org/MLBDataSet1.xsd" xmlns:mstns="http://tempuri.org/MLBDataSet1.xsd" xmlns="http://tempuri.org/MLBDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="MLBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MLBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.MLB.Properties.Settings.GlobalReference.Default.MLBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Ramal20TableAdapter" GeneratorDataComponentClassName="Ramal20TableAdapter" Name="Ramal20" UserDataComponentName="Ramal20TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MLBConnectionString (Settings)" DbObjectName="MLB.dbo.Ramal20" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT UName, Cuenta, Date, Producto, UM, Precio, ICantidad, IImporte, ECantdad, EImporte, SCantidad, SImporte, TCantidad, TImporte, FCantidad, FPrecio, FImporte FROM dbo.Ramal20</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="UName" DataSetColumn="UName" />
+              <Mapping SourceColumn="Cuenta" DataSetColumn="Cuenta" />
+              <Mapping SourceColumn="Date" DataSetColumn="Date" />
+              <Mapping SourceColumn="Producto" DataSetColumn="Producto" />
+              <Mapping SourceColumn="UM" DataSetColumn="UM" />
+              <Mapping SourceColumn="Precio" DataSetColumn="Precio" />
+              <Mapping SourceColumn="ICantidad" DataSetColumn="ICantidad" />
+              <Mapping SourceColumn="IImporte" DataSetColumn="IImporte" />
+              <Mapping SourceColumn="ECantdad" DataSetColumn="ECantdad" />
+              <Mapping SourceColumn="EImporte" DataSetColumn="EImporte" />
+              <Mapping SourceColumn="SCantidad" DataSetColumn="SCantidad" />
+              <Mapping SourceColumn="SImporte" DataSetColumn="SImporte" />
+              <Mapping SourceColumn="TCantidad" DataSetColumn="TCantidad" />
+              <Mapping SourceColumn="TImporte" DataSetColumn="TImporte" />
+              <Mapping SourceColumn="FCantidad" DataSetColumn="FCantidad" />
+              <Mapping SourceColumn="FPrecio" DataSetColumn="FPrecio" />
+              <Mapping SourceColumn="FImporte" DataSetColumn="FImporte" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MLBDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="MLBDataSet1" msprop:Generator_UserDSName="MLBDataSet1" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Ramal20" msprop:Generator_UserTableName="Ramal20" msprop:Generator_RowDeletedName="Ramal20RowDeleted" msprop:Generator_TableClassName="Ramal20DataTable" msprop:Generator_RowChangedName="Ramal20RowChanged" msprop:Generator_RowClassName="Ramal20Row" msprop:Generator_RowChangingName="Ramal20RowChanging" msprop:Generator_RowEvArgName="Ramal20RowChangeEvent" msprop:Generator_RowEvHandlerName="Ramal20RowChangeEventHandler" msprop:Generator_TablePropName="Ramal20" msprop:Generator_TableVarName="tableRamal20" msprop:Generator_RowDeletingName="Ramal20RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UName" msprop:Generator_UserColumnName="UName" msprop:Generator_ColumnPropNameInRow="UName" msprop:Generator_ColumnVarNameInTable="columnUName" msprop:Generator_ColumnPropNameInTable="UNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Cuenta" msprop:Generator_UserColumnName="Cuenta" msprop:Generator_ColumnPropNameInRow="Cuenta" msprop:Generator_ColumnVarNameInTable="columnCuenta" msprop:Generator_ColumnPropNameInTable="CuentaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Date" msprop:Generator_UserColumnName="Date" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInTable="DateColumn" type="xs:dateTime" />
+              <xs:element name="Producto" msprop:Generator_UserColumnName="Producto" msprop:Generator_ColumnPropNameInRow="Producto" msprop:Generator_ColumnVarNameInTable="columnProducto" msprop:Generator_ColumnPropNameInTable="ProductoColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UM" msprop:Generator_UserColumnName="UM" msprop:Generator_ColumnPropNameInRow="UM" msprop:Generator_ColumnVarNameInTable="columnUM" msprop:Generator_ColumnPropNameInTable="UMColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Precio" msprop:Generator_UserColumnName="Precio" msprop:Generator_ColumnPropNameInRow="Precio" msprop:Generator_ColumnVarNameInTable="columnPrecio" msprop:Generator_ColumnPropNameInTable="PrecioColumn" type="xs:decimal" />
+              <xs:element name="ICantidad" msprop:Generator_UserColumnName="ICantidad" msprop:Generator_ColumnPropNameInRow="ICantidad" msprop:Generator_ColumnVarNameInTable="columnICantidad" msprop:Generator_ColumnPropNameInTable="ICantidadColumn" type="xs:int" />
+              <xs:element name="IImporte" msprop:Generator_UserColumnName="IImporte" msprop:Generator_ColumnPropNameInRow="IImporte" msprop:Generator_ColumnVarNameInTable="columnIImporte" msprop:Generator_ColumnPropNameInTable="IImporteColumn" type="xs:decimal" />
+              <xs:element name="ECantdad" msprop:Generator_UserColumnName="ECantdad" msprop:Generator_ColumnPropNameInRow="ECantdad" msprop:Generator_ColumnVarNameInTable="columnECantdad" msprop:Generator_ColumnPropNameInTable="ECantdadColumn" type="xs:int" />
+              <xs:element name="EImporte" msprop:Generator_UserColumnName="EImporte" msprop:Generator_ColumnPropNameInRow="EImporte" msprop:Generator_ColumnVarNameInTable="columnEImporte" msprop:Generator_ColumnPropNameInTable="EImporteColumn" type="xs:decimal" />
+              <xs:element name="SCantidad" msprop:Generator_UserColumnName="SCantidad" msprop:Generator_ColumnPropNameInRow="SCantidad" msprop:Generator_ColumnVarNameInTable="columnSCantidad" msprop:Generator_ColumnPropNameInTable="SCantidadColumn" type="xs:int" />
+              <xs:element name="SImporte" msprop:Generator_UserColumnName="SImporte" msprop:Generator_ColumnPropNameInRow="SImporte" msprop:Generator_ColumnVarNameInTable="columnSImporte" msprop:Generator_ColumnPropNameInTable="SImporteColumn" type="xs:decimal" />
+              <xs:element name="TCantidad" msprop:Generator_UserColumnName="TCantidad" msprop:Generator_ColumnPropNameInRow="TCantidad" msprop:Generator_ColumnVarNameInTable="columnTCantidad" msprop:Generator_ColumnPropNameInTable="TCantidadColumn" type="xs:int" />
+              <xs:element name="TImporte" msprop:Generator_UserColumnName="TImporte" msprop:Generator_ColumnPropNameInRow="TImporte" msprop:Generator_ColumnVarNameInTable="columnTImporte" msprop:Generator_ColumnPropNameInTable="TImporteColumn" type="xs:decimal" />
+              <xs:element name="FCantidad" msprop:Generator_UserColumnName="FCantidad" msprop:Generator_ColumnPropNameInRow="FCantidad" msprop:Generator_ColumnVarNameInTable="columnFCantidad" msprop:Generator_ColumnPropNameInTable="FCantidadColumn" type="xs:int" />
+              <xs:element name="FPrecio" msprop:Generator_UserColumnName="FPrecio" msprop:Generator_ColumnPropNameInRow="FPrecio" msprop:Generator_ColumnVarNameInTable="columnFPrecio" msprop:Generator_ColumnPropNameInTable="FPrecioColumn" type="xs:decimal" />
+              <xs:element name="FImporte" msprop:Generator_UserColumnName="FImporte" msprop:Generator_ColumnPropNameInRow="FImporte" msprop:Generator_ColumnVarNameInTable="columnFImporte" msprop:Generator_ColumnPropNameInTable="FImporteColumn" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

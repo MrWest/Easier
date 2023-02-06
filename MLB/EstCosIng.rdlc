@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="MLBConnectionString1">
+      <rd:DataSourceID>5a84ad97-fe3c-4ebb-948c-d6b3754da097</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>
+        </DataProvider>
+        <ConnectString>
+        </ConnectString>
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <RightMargin>0.05in</RightMargin>
+  <LeftMargin>0.05in</LeftMargin>
+  <BottomMargin>0.1in</BottomMargin>
+  <rd:ReportID>acfaaddb-ad39-4037-a7d0-4b9c7cc54c58</rd:ReportID>
+  <DataSets>
+    <DataSet Name="MLBResIng_PResIng">
+      <Fields>
+        <Field Name="Day">
+          <DataField>Day</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Month">
+          <DataField>Month</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="InHoy">
+          <DataField>InHoy</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="InHastaHoy">
+          <DataField>InHastaHoy</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CostHoy">
+          <DataField>CostHoy</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CostHastaHoy">
+          <DataField>CostHastaHoy</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IngAcum">
+          <DataField>IngAcum</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CostAcum">
+          <DataField>CostAcum</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="RDate">
+          <DataField>RDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MachineName">
+          <DataField>MachineName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="UName">
+          <DataField>UName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Date">
+          <DataField>Date</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Cuenta">
+          <DataField>Cuenta</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Moneda">
+          <DataField>Moneda</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>MLBConnectionString1</DataSourceName>
+        <CommandText>SELECT Day, Month, InHoy, InHastaHoy, CostHoy, CostHastaHoy, IngAcum, CostAcum, RDate, MachineName, UName, Date, Cuenta, Moneda FROM dbo.PResIng</CommandText>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>MLBResIng</rd:DataSetName>
+        <rd:TableName>PResIng</rd:TableName>
+        <rd:TableAdapterName>PResIngTableAdapter</rd:TableAdapterName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Code />
+  <Width>7.5in</Width>
+  <Body>
+    <ReportItems>
+      <Textbox Name="textbox6">
+        <rd:DefaultName>textbox6</rd:DefaultName>
+        <Visibility>
+          <Hidden>=IIf(CountRows()&gt;0, True, False)</Hidden>
+        </Visibility>
+        <Top>1.625in</Top>
+        <Width>3.75in</Width>
+        <ToggleImage>
+          <InitialState>true</InitialState>
+        </ToggleImage>
+        <Style>
+          <Color>Maroon</Color>
+          <FontWeight>700</FontWeight>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>6</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.75in</Left>
+        <Height>0.25in</Height>
+        <Value>No existen Resultados para la Consulta Solicitada.</Value>
+      </Textbox>
+      <Rectangle Name="rectangle2">
+        <ZIndex>5</ZIndex>
+        <Visibility>
+          <Hidden>=First(Fields!Month.Value, "MLBResIng_PResIng")=Last(Fields!Month.Value, "MLBResIng_PResIng")</Hidden>
+        </Visibility>
+        <ReportItems>
+          <Textbox Name="textbox3">
+            <rd:DefaultName>textbox3</rd:DefaultName>
+            <Top>0.125in</Top>
+            <Style>
+              <TextAlign>Left</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>1</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>5.75in</Left>
+            <Height>0.25in</Height>
+            <Value>="Año: "+Right(FormatDateTime(First(Fields!Date.Value, "MLBResIng_PResIng"),DateFormat.ShortDate),4)</Value>
+          </Textbox>
+          <Chart Name="chart1">
+            <Legend>
+              <Visible>true</Visible>
+              <Style>
+                <BorderStyle>
+                  <Default>Solid</Default>
+                </BorderStyle>
+              </Style>
+              <Position>RightCenter</Position>
+            </Legend>
+            <CategoryAxis>
+              <Axis>
+                <Title>
+                  <Caption>Fecha</Caption>
+                </Title>
+                <MajorGridLines>
+                  <Style>
+                    <BorderStyle>
+                      <Default>Solid</Default>
+                    </BorderStyle>
+                  </Style>
+                </MajorGridLines>
+                <MinorGridLines>
+                  <Style>
+                    <BorderStyle>
+                      <Default>Solid</Default>
+                    </BorderStyle>
+                  </Style>
+                </MinorGridLines>
+                <MajorTickMarks>Outside</MajorTickMarks>
+                <Min>0</Min>
+                <Visible>true</Visible>
+              </Axis>
+            </CategoryAxis>
+            <DataSetName>MLBResIng_PResIng</DataSetName>
+            <PlotArea>
+              <Style>
+                <BackgroundColor>LightGrey</BackgroundColor>
+                <BorderStyle>
+                  <Default>Solid</Default>
+                </BorderStyle>
+              </Style>
+            </PlotArea>
+            <ThreeDProperties>
+              <Rotation>30</Rotation>
+              <Inclination>30</Inclination>
+              <Shading>Simple</Shading>
+              <WallThickness>50</WallThickness>
+            </ThreeDProperties>
+            <PointWidth>0</PointWidth>
+            <SeriesGroupings>
+              <SeriesGrouping>
+                <StaticSeries>
+                  <StaticMember>
+                    <Label>Ingresos</Label>
+                  </StaticMember>
+                  <StaticMember>
+                    <Label>Costos</Label>
+                  </StaticMember>
+                </StaticSeries>
+              </SeriesGrouping>
+            </SeriesGroupings>
+            <Subtype>Plain</Subtype>
+            <ValueAxis>
+              <Axis>
+                <Title>
+                  <Caption>Importe</Caption>
+                </Title>
+                <MajorGridLines>
+                  <ShowGridLines>true</ShowGridLines>
+                  <Style>
+                    <BorderStyle>
+                      <Default>Solid</Default>
+                    </BorderStyle>
+                  </Style>
+                </MajorGridLines>
+                <MinorGridLines>
+                  <Style>
+                    <BorderStyle>
+                      <Default>Solid</Default>
+                    </BorderStyle>
+                  </Style>
+                </MinorGridLines>
+                <MajorTickMarks>Outside</MajorTickMarks>
+                <Min>0</Min>
+                <Margin>true</Margin>
+                <Visible>true</Visible>
+                <Scalar>true</Scalar>
+              </Axis>
+            </ValueAxis>
+            <Type>Line</Type>
+            <CategoryGroupings>
+              <CategoryGrouping>
+                <DynamicCategories>
+                  <Grouping Name="chart1_CategoryGroup1">
+                    <GroupExpressions>
+                      <GroupExpression>=Fields!Month.Value</GroupExpression>
+                    </GroupExpressions>
+                  </Grouping>
+                  <Label>=Fields!Month.Value</Label>
+                </DynamicCategories>
+              </CategoryGrouping>
+            </CategoryGroupings>
+            <Palette>Default</Palette>
+            <ChartData>
+              <ChartSeries>
+                <DataPoints>
+                  <DataPoint>
+                    <DataValues>
+                      <DataValue>
+                        <Value>=Sum(CDbl(Fields!InHoy.Value))</Value>
+                      </DataValue>
+                    </DataValues>
+                    <DataLabel />
+                    <Marker>
+                      <Size>6pt</Size>
+                    </Marker>
+                  </DataPoint>
+                </DataPoints>
+              </ChartSeries>
+              <ChartSeries>
+                <DataPoints>
+                  <DataPoint>
+                    <DataValues>
+                      <DataValue>
+                        <Value>=Sum(CDbl(Fields!CostHoy.Value))</Value>
+                      </DataValue>
+                    </DataValues>
+                    <DataLabel />
+                    <Marker>
+                      <Size>6pt</Size>
+                    </Marker>
+                  </DataPoint>
+                </DataPoints>
+              </ChartSeries>
+            </ChartData>
+            <Style>
+              <BackgroundColor>White</BackgroundColor>
+            </Style>
+            <Title>
+              <Caption>Resumen de Ingresos y Gastos</Caption>
+              <Style />
+            </Title>
+            <Height>3in</Height>
+          </Chart>
+        </ReportItems>
+        <Top>0.875in</Top>
+        <Width>7.25in</Width>
+        <Height>3.375in</Height>
+      </Rectangle>
+      <Rectangle Name="rectangle1">
+        <ZIndex>4</ZIndex>
+        <Visibility>
+          <Hidden>=First(Fields!Month.Value, "MLBResIng_PResIng")&lt;&gt;Last(Fields!Month.Value, "MLBResIng_PResIng")</Hidden>
+        </Visibility>
+        <ReportItems>
+          <Textbox Name="textbox5">
+            <rd:DefaultName>textbox5</rd:DefaultName>
+            <Top>0.125in</Top>
+            <Width>1.625in</Width>
+            <Style>
+              <TextAlign>Left</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>1</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>5.5in</Left>
+            <Height>0.25in</Height>
+            <Value>="Mes: "+First(Fields!Month.Value, "MLBResIng_PResIng")</Value>
+          </Textbox>
+          <Chart Name="Ingresos_Gastos">
+            <Legend>
+              <Visible>true</Visible>
+              <Style>
+                <BorderStyle>
+                  <Default>Solid</Default>
+                </BorderStyle>
+              </Style>
+              <Position>RightCenter</Position>
+            </Legend>
+            <CategoryAxis>
+              <Axis>
+                <Title>
+                  <Caption>Fecha</Caption>
+                </Title>
+                <MajorGridLines>
+                  <Style>
+                    <BorderStyle>
+                      <Default>Solid</Default>
+                    </BorderStyle>
+                  </Style>
+                </MajorGridLines>
+                <MinorGridLines>
+                  <Style>
+                    <BorderStyle>
+                      <Default>Solid</Default>
+                    </BorderStyle>
+                  </Style>
+                </MinorGridLines>
+                <MajorTickMarks>Outside</MajorTickMarks>
+                <Min>0</Min>
+                <Visible>true</Visible>
+              </Axis>
+            </CategoryAxis>
+            <DataSetName>MLBResIng_PResIng</DataSetName>
+            <PlotArea>
+              <Style>
+                <BackgroundColor>LightGrey</BackgroundColor>
+                <BorderStyle>
+                  <Default>Solid</Default>
+                </BorderStyle>
+              </Style>
+            </PlotArea>
+            <ThreeDProperties>
+              <Rotation>30</Rotation>
+              <Inclination>30</Inclination>
+              <Shading>Simple</Shading>
+              <WallThickness>50</WallThickness>
+            </ThreeDProperties>
+            <PointWidth>0</PointWidth>
+            <SeriesGroupings>
+              <SeriesGrouping>
+                <StaticSeries>
+                  <StaticMember>
+                    <Label>Ingresos</Label>
+                  </StaticMember>
+                  <StaticMember>
+                    <Label>Costos</Label>
+                  </StaticMember>
+                </StaticSeries>
+              </SeriesGrouping>
+            </SeriesGroupings>
+            <Top>0.0625in</Top>
+            <Subtype>Plain</Subtype>
+            <ValueAxis>
+              <Axis>
+                <Title>
+                  <Caption>Importe</Caption>
+                </Title>
+                <MajorGridLines>
+                  <ShowGridLines>true</ShowGridLines>
+                  <Style>
+                    <BorderStyle>
+                      <Default>Solid</Default>
+                    </BorderStyle>
+                  </Style>
+                </MajorGridLines>
+                <MinorGridLines>
+                  <Style>
+                    <BorderStyle>
+                      <Default>Solid</Default>
+                    </BorderStyle>
+                  </Style>
+                </MinorGridLines>
+                <MajorTickMarks>Outside</MajorTickMarks>
+                <Min>0</Min>
+                <Margin>true</Margin>
+                <Visible>true</Visible>
+                <Scalar>true</Scalar>
+              </Axis>
+            </ValueAxis>
+            <Type>Line</Type>
+            <Width>7.125in</Width>
+            <CategoryGroupings>
+              <CategoryGrouping>
+                <DynamicCategories>
+                  <Grouping Name="Ingresos_Gastos_CategoryGroup1">
+                    <GroupExpressions>
+                      <GroupExpression>=Fields!Day.Value</GroupExpression>
+                    </GroupExpressions>
+                  </Grouping>
+                  <Label>=Fields!Day.Value</Label>
+                </DynamicCategories>
+              </CategoryGrouping>
+            </CategoryGroupings>
+            <Palette>Default</Palette>
+            <ChartData>
+              <ChartSeries>
+                <DataPoints>
+                  <DataPoint>
+                    <DataValues>
+                      <DataValue>
+                        <Value>=Sum(CDbl(Fields!InHoy.Value))</Value>
+                      </DataValue>
+                    </DataValues>
+                    <DataLabel />
+                    <Marker>
+                      <Size>6pt</Size>
+                    </Marker>
+                  </DataPoint>
+                </DataPoints>
+              </ChartSeries>
+              <ChartSeries>
+                <DataPoints>
+                  <DataPoint>
+                    <DataValues>
+                      <DataValue>
+                        <Value>=Sum(CDbl(Fields!CostHoy.Value))</Value>
+                      </DataValue>
+                    </DataValues>
+                    <DataLabel />
+                    <Marker>
+                      <Size>6pt</Size>
+                    </Marker>
+                  </DataPoint>
+                </DataPoints>
+              </ChartSeries>
+            </ChartData>
+            <Style>
+              <BackgroundColor>White</BackgroundColor>
+            </Style>
+            <Title>
+              <Caption>Resumen de Ingresos y Gastos</Caption>
+              <Style />
+            </Title>
+            <Height>3in</Height>
+            <Left>0.0625in</Left>
+          </Chart>
+        </ReportItems>
+        <Top>0.875in</Top>
+        <Width>7.25in</Width>
+        <Height>3.125in</Height>
+      </Rectangle>
+      <Textbox Name="textbox4">
+        <rd:DefaultName>textbox4</rd:DefaultName>
+        <Top>0.5in</Top>
+        <Width>1.5in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>3</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>5.625in</Left>
+        <Height>0.25in</Height>
+        <Value>="Moneda: "+First(Fields!Moneda.Value, "MLBResIng_PResIng")</Value>
+      </Textbox>
+      <Line Name="line1">
+        <Top>0.75in</Top>
+        <Width>7.125in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>2</ZIndex>
+        <Height>0in</Height>
+      </Line>
+      <Textbox Name="textbox2">
+        <rd:DefaultName>textbox2</rd:DefaultName>
+        <Top>0.5in</Top>
+        <Width>2.75in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>1</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value>="Unidad: "+First(Fields!UName.Value, "MLBResIng_PResIng")</Value>
+      </Textbox>
+      <Textbox Name="textbox1">
+        <rd:DefaultName>textbox1</rd:DefaultName>
+        <Width>3.75in</Width>
+        <Style>
+          <Color>#1c3a70</Color>
+          <FontFamily>Tahoma</FontFamily>
+          <FontSize>14pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.33in</Height>
+        <Value>Resumen de Ingresos y Gastos</Value>
+      </Textbox>
+    </ReportItems>
+    <Height>5in</Height>
+  </Body>
+  <Language>en-US</Language>
+  <PageFooter>
+    <PrintOnFirstPage>true</PrintOnFirstPage>
+    <ReportItems>
+      <Textbox Name="textbox25">
+        <rd:DefaultName>textbox25</rd:DefaultName>
+        <Width>3in</Width>
+        <Style>
+          <FontFamily>Times New Roman</FontFamily>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Left>2.25in</Left>
+        <Value>Copyright  WildWest Company ®   2013</Value>
+      </Textbox>
+    </ReportItems>
+    <Height>0.25in</Height>
+    <PrintOnLastPage>true</PrintOnLastPage>
+  </PageFooter>
+  <TopMargin>0.1in</TopMargin>
+</Report>

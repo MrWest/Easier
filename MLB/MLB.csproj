@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4CDE39F4-39FC-472A-BD0E-6B000EDAD717}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MLB</RootNamespace>
+    <AssemblyName>Easier</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>Resources\Icon1.ico</ApplicationIcon>
+    <ManifestCertificateThumbprint>D9328411478A3CCE66B66E2F9FE924534A5F3CB7</ManifestCertificateThumbprint>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <SignAssembly>false</SignAssembly>
+    <PublishUrl>http://localhost/MLB/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UMConvert, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UMConvert\bin\Release\UMConvert.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutEasier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutEasier.Designer.cs">
+      <DependentUpon>AboutEasier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActReq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActReq.Designer.cs">
+      <DependentUpon>ActReq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Authorization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authorization.Designer.cs">
+      <DependentUpon>Authorization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckPack.cs" />
+    <Compile Include="Componer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Componer.Designer.cs">
+      <DependentUpon>Componer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBControl.cs" />
+    <Compile Include="Defensa.cs">
+      <DependentUpon>Defensa.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Defensa.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Defensa.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Descomponer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Descomponer.Designer.cs">
+      <DependentUpon>Descomponer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EAHelp.cs" />
+    <Compile Include="Estadisticas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estadisticas.Designer.cs">
+      <DependentUpon>Estadisticas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FCReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FCReport.Designer.cs">
+      <DependentUpon>FCReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GridViewer.cs" />
+    <Compile Include="Imprimir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Imprimir.Designer.cs">
+      <DependentUpon>Imprimir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InBetween.cs" />
+    <Compile Include="Init.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Init.Designer.cs">
+      <DependentUpon>Init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MLBDescomponer.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MLBDescomponer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MLBFCEstandar.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MLBFCEstandar.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MLBFCosto.cs">
+      <DependentUpon>MLBFCosto.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MLBFCosto.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MLBFCosto.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MLBIPVs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MLBIPVs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MLBPFlujo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MLBPFlujo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MLBRamal.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MLBRamal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MLBResIng.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MLBResIng.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MLBResumen.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MLBResumen.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MLBSubMayor.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MLBSubMayor.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MLBVSalida.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MLBVSalida.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutEasier.resx">
+      <DependentUpon>AboutEasier.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActReq.resx">
+      <DependentUpon>ActReq.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Authorization.resx">
+      <DependentUpon>Authorization.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componer.resx">
+      <DependentUpon>Componer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Descomponer.rdlc" />
+    <EmbeddedResource Include="Descomponer.resx">
+      <DependentUpon>Descomponer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estadisticas.resx">
+      <DependentUpon>Estadisticas.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EstCosIng.rdlc" />
+    <EmbeddedResource Include="EstCosIng2.rdlc" />
+    <EmbeddedResource Include="EstEntSal.rdlc" />
+    <EmbeddedResource Include="EstFlujoCaja.rdlc" />
+    <EmbeddedResource Include="Existencias.rdlc" />
+    <EmbeddedResource Include="FCEstandar.rdlc" />
+    <EmbeddedResource Include="FCReport.resx">
+      <DependentUpon>FCReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FichaCosto.rdlc" />
+    <EmbeddedResource Include="FlujoCaja.rdlc" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FujoEstandar.rdlc" />
+    <EmbeddedResource Include="FullReport.rdlc" />
+    <EmbeddedResource Include="Imprimir.resx">
+      <DependentUpon>Imprimir.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IngresosGastos2.rdlc" />
+    <EmbeddedResource Include="Init.resx">
+      <DependentUpon>Init.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IPV_Report.rdlc" />
+    <EmbeddedResource Include="IPV_Report2.rdlc" />
+    <EmbeddedResource Include="MDEstadistica.rdlc" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ramal20.rdlc" />
+    <EmbeddedResource Include="Ramal202.rdlc" />
+    <EmbeddedResource Include="Report5.rdlc" />
+    <EmbeddedResource Include="ResumenIngresos.rdlc" />
+    <EmbeddedResource Include="Salir.resx">
+      <DependentUpon>Salir.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMayor.rdlc" />
+    <EmbeddedResource Include="SubMayor2.rdlc" />
+    <EmbeddedResource Include="ValeSalida.rdlc" />
+    <EmbeddedResource Include="ValeSalida2.rdlc" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Resumen.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resumen.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Salir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salir.Designer.cs">
+      <DependentUpon>Salir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ValueSaver.cs" />
+    <Compile Include="XMLSolver.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="banner2.jpg" />
+    <Content Include="godark.txt" />
+    <Content Include="init cop2y copy.jpg" />
+    <None Include="Resources\eve anime2_3.gif" />
+    <None Include="Resources\eve anime gg.gif" />
+    <None Include="Resources\eve anime3.gif" />
+    <None Include="Resources\eve anime fin.gif" />
+    <None Include="Resources\eve anime end.gif" />
+    <None Include="Resources\eve anime middle.gif" />
+    <Content Include="LightView.txt" />
+    <Content Include="Resources\EVE.ico" />
+    <None Include="Resources\EVE2.ico" />
+    <None Include="Resources\EVE1.ico" />
+    <None Include="Resources\Confirm.bmp" />
+    <None Include="app.config" />
+    <None Include="Defensa.xsc">
+      <DependentUpon>Defensa.xsd</DependentUpon>
+    </None>
+    <None Include="Defensa.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Defensa.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Defensa.xss">
+      <DependentUpon>Defensa.xsd</DependentUpon>
+    </None>
+    <None Include="fileAddress.cfg" />
+    <None Include="MLBDescomponer.xsc">
+      <DependentUpon>MLBDescomponer.xsd</DependentUpon>
+    </None>
+    <None Include="MLBDescomponer.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MLBDescomponer.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MLBDescomponer.xss">
+      <DependentUpon>MLBDescomponer.xsd</DependentUpon>
+    </None>
+    <None Include="MLBFCEstandar.xsc">
+      <DependentUpon>MLBFCEstandar.xsd</DependentUpon>
+    </None>
+    <None Include="MLBFCEstandar.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MLBFCEstandar.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MLBFCEstandar.xss">
+      <DependentUpon>MLBFCEstandar.xsd</DependentUpon>
+    </None>
+    <None Include="MLBFCosto.xsc">
+      <DependentUpon>MLBFCosto.xsd</DependentUpon>
+    </None>
+    <None Include="MLBFCosto.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MLBFCosto.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MLBFCosto.xss">
+      <DependentUpon>MLBFCosto.xsd</DependentUpon>
+    </None>
+    <None Include="MLBIPVs.xsc">
+      <DependentUpon>MLBIPVs.xsd</DependentUpon>
+    </None>
+    <None Include="MLBIPVs.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MLBIPVs.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MLBIPVs.xss">
+      <DependentUpon>MLBIPVs.xsd</DependentUpon>
+    </None>
+    <None Include="MLBPFlujo.xsc">
+      <DependentUpon>MLBPFlujo.xsd</DependentUpon>
+    </None>
+    <None Include="MLBPFlujo.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MLBPFlujo.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MLBPFlujo.xss">
+      <DependentUpon>MLBPFlujo.xsd</DependentUpon>
+    </None>
+    <None Include="MLBRamal.xsc">
+      <DependentUpon>MLBRamal.xsd</DependentUpon>
+    </None>
+    <None Include="MLBRamal.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MLBRamal.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MLBRamal.xss">
+      <DependentUpon>MLBRamal.xsd</DependentUpon>
+    </None>
+    <None Include="MLBResIng.xsc">
+      <DependentUpon>MLBResIng.xsd</DependentUpon>
+    </None>
+    <None Include="MLBResIng.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MLBResIng.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MLBResIng.xss">
+      <DependentUpon>MLBResIng.xsd</DependentUpon>
+    </None>
+    <None Include="MLBResumen.xsc">
+      <DependentUpon>MLBResumen.xsd</DependentUpon>
+    </None>
+    <None Include="MLBResumen.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MLBResumen.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MLBResumen.xss">
+      <DependentUpon>MLBResumen.xsd</DependentUpon>
+    </None>
+    <None Include="MLBSubMayor.xsc">
+      <DependentUpon>MLBSubMayor.xsd</DependentUpon>
+    </None>
+    <None Include="MLBSubMayor.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MLBSubMayor.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MLBSubMayor.xss">
+      <DependentUpon>MLBSubMayor.xsd</DependentUpon>
+    </None>
+    <None Include="MLBVSalida.xsc">
+      <DependentUpon>MLBVSalida.xsd</DependentUpon>
+    </None>
+    <None Include="MLBVSalida.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MLBVSalida.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MLBVSalida.xss">
+      <DependentUpon>MLBVSalida.xsd</DependentUpon>
+    </None>
+    <None Include="MLB_1_TemporaryKey.pfx" />
+    <None Include="MLB_TemporaryKey.pfx" />
+    <None Include="Resources\Image1.bmp" />
+    <None Include="Resources\Icon1.ico" />
+    <None Include="Resources\banner21 copy.png" />
+    <None Include="Resources\banner21.jpg" />
+    <None Include="Resources\banner2.jpg" />
+    <None Include="Resumen.xsc">
+      <DependentUpon>Resumen.xsd</DependentUpon>
+    </None>
+    <None Include="Resumen.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Resumen.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resumen.xss">
+      <DependentUpon>Resumen.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,208 @@
+C:\Users\Enrike\Desktop\Desktop\Test Unit\MLB\MLB\bin\Debug\MLB.exe.config
+C:\Users\Enrike\Desktop\Desktop\Test Unit\MLB\MLB\bin\Debug\MLB.exe
+C:\Users\Enrike\Desktop\Desktop\Test Unit\MLB\MLB\bin\Debug\MLB.pdb
+C:\Users\Enrike\Desktop\Desktop\Test Unit\MLB\MLB\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Enrike\Desktop\Desktop\Test Unit\MLB\MLB\obj\Debug\MLB.Form1.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\MLB\MLB\obj\Debug\MLB.Imprimir.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\MLB\MLB\obj\Debug\MLB.Init.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\MLB\MLB\obj\Debug\MLB.Properties.Resources.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\MLB\MLB\obj\Debug\MLB.csproj.GenerateResource.Cache
+C:\Users\Enrike\Desktop\Desktop\Test Unit\MLB\MLB\obj\Debug\RdlCompile.cache
+C:\Users\Enrike\Desktop\Desktop\Test Unit\MLB\MLB\obj\Debug\RdlCompile.compiled
+C:\Users\Enrike\Desktop\Desktop\Test Unit\MLB\MLB\obj\Debug\MLB.exe
+C:\Users\Enrike\Desktop\Desktop\Test Unit\MLB\MLB\obj\Debug\MLB.pdb
+C:\Users\Enrike\Desktop\Desktop\MLB\MLB\bin\Debug\MLB.exe.config
+C:\Users\Enrike\Desktop\Desktop\MLB\MLB\bin\Debug\MLB.exe
+C:\Users\Enrike\Desktop\Desktop\MLB\MLB\bin\Debug\MLB.pdb
+C:\Users\Enrike\Desktop\Desktop\MLB\MLB\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Enrike\Desktop\Desktop\MLB\MLB\obj\Debug\MLB.Form1.resources
+C:\Users\Enrike\Desktop\Desktop\MLB\MLB\obj\Debug\MLB.Imprimir.resources
+C:\Users\Enrike\Desktop\Desktop\MLB\MLB\obj\Debug\MLB.Init.resources
+C:\Users\Enrike\Desktop\Desktop\MLB\MLB\obj\Debug\MLB.Properties.Resources.resources
+C:\Users\Enrike\Desktop\Desktop\MLB\MLB\obj\Debug\MLB.csproj.GenerateResource.Cache
+C:\Users\Enrike\Desktop\Desktop\MLB\MLB\obj\Debug\RdlCompile.cache
+C:\Users\Enrike\Desktop\Desktop\MLB\MLB\obj\Debug\RdlCompile.compiled
+C:\Users\Enrike\Desktop\Desktop\MLB\MLB\obj\Debug\MLB.exe
+C:\Users\Enrike\Desktop\Desktop\MLB\MLB\obj\Debug\MLB.pdb
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\MLB\MLB\bin\Debug\MLB.exe.config
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\MLB\MLB\bin\Debug\MLB.exe
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\MLB\MLB\bin\Debug\MLB.pdb
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\MLB\MLB\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\MLB\MLB\obj\Debug\MLB.Form1.resources
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\MLB\MLB\obj\Debug\MLB.Imprimir.resources
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\MLB\MLB\obj\Debug\MLB.Init.resources
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\MLB\MLB\obj\Debug\MLB.Properties.Resources.resources
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\MLB\MLB\obj\Debug\MLB.csproj.GenerateResource.Cache
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\MLB\MLB\obj\Debug\RdlCompile.cache
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\MLB\MLB\obj\Debug\RdlCompile.compiled
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\MLB\MLB\obj\Debug\MLB.exe
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\MLB\MLB\obj\Debug\MLB.pdb
+C:\Users\Enrike\Desktop\HERE\MLB\MLB\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Enrike\Desktop\HERE\MLB\MLB\obj\Debug\MLB.ActReq.resources
+C:\Users\Enrike\Desktop\HERE\MLB\MLB\obj\Debug\MLB.Form1.resources
+C:\Users\Enrike\Desktop\HERE\MLB\MLB\obj\Debug\MLB.Imprimir.resources
+C:\Users\Enrike\Desktop\HERE\MLB\MLB\obj\Debug\MLB.Init.resources
+C:\Users\Enrike\Desktop\HERE\MLB\MLB\obj\Debug\MLB.Properties.Resources.resources
+C:\Users\Enrike\Desktop\HERE\MLB\MLB\obj\Debug\MLB.csproj.GenerateResource.Cache
+C:\Users\Enrike\Desktop\HERE\MLB\MLB\obj\Debug\RdlCompile.cache
+C:\Users\Enrike\Desktop\HERE\MLB\MLB\obj\Debug\RdlCompile.compiled
+C:\Users\Enrike\Desktop\HERE\MLB\MLB\bin\Debug\MLB.exe.config
+C:\Users\Enrike\Desktop\HERE\MLB\MLB\bin\Debug\MLB.exe.manifest
+C:\Users\Enrike\Desktop\HERE\MLB\MLB\bin\Debug\MLB.application
+C:\Users\Enrike\Desktop\HERE\MLB\MLB\bin\Debug\MLB.exe
+C:\Users\Enrike\Desktop\HERE\MLB\MLB\bin\Debug\MLB.pdb
+C:\Users\Enrike\Desktop\HERE\MLB\MLB\obj\Debug\MLB.exe.manifest
+C:\Users\Enrike\Desktop\HERE\MLB\MLB\obj\Debug\MLB.application
+C:\Users\Enrike\Desktop\HERE\MLB\MLB\obj\Debug\MLB.exe
+C:\Users\Enrike\Desktop\HERE\MLB\MLB\obj\Debug\MLB.pdb
+C:\Documents and Settings\enrike\Escritorio\HERE\MLB\MLB\bin\Debug\MLB.exe.config
+C:\Documents and Settings\enrike\Escritorio\HERE\MLB\MLB\bin\Debug\MLB.exe.manifest
+C:\Documents and Settings\enrike\Escritorio\HERE\MLB\MLB\bin\Debug\MLB.application
+C:\Documents and Settings\enrike\Escritorio\HERE\MLB\MLB\bin\Debug\MLB.exe
+C:\Documents and Settings\enrike\Escritorio\HERE\MLB\MLB\bin\Debug\MLB.pdb
+C:\Documents and Settings\enrike\Escritorio\HERE\MLB\MLB\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\enrike\Escritorio\HERE\MLB\MLB\obj\Debug\MLB.ActReq.resources
+C:\Documents and Settings\enrike\Escritorio\HERE\MLB\MLB\obj\Debug\MLB.Form1.resources
+C:\Documents and Settings\enrike\Escritorio\HERE\MLB\MLB\obj\Debug\MLB.Imprimir.resources
+C:\Documents and Settings\enrike\Escritorio\HERE\MLB\MLB\obj\Debug\MLB.Init.resources
+C:\Documents and Settings\enrike\Escritorio\HERE\MLB\MLB\obj\Debug\MLB.Properties.Resources.resources
+C:\Documents and Settings\enrike\Escritorio\HERE\MLB\MLB\obj\Debug\MLB.csproj.GenerateResource.Cache
+C:\Documents and Settings\enrike\Escritorio\HERE\MLB\MLB\obj\Debug\RdlCompile.cache
+C:\Documents and Settings\enrike\Escritorio\HERE\MLB\MLB\obj\Debug\RdlCompile.compiled
+C:\Documents and Settings\enrike\Escritorio\HERE\MLB\MLB\obj\Debug\MLB.exe.manifest
+C:\Documents and Settings\enrike\Escritorio\HERE\MLB\MLB\obj\Debug\MLB.application
+C:\Documents and Settings\enrike\Escritorio\HERE\MLB\MLB\obj\Debug\MLB.exe
+C:\Documents and Settings\enrike\Escritorio\HERE\MLB\MLB\obj\Debug\MLB.pdb
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\bin\Debug\Easier.exe.config
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\bin\Debug\Easier.exe.manifest
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\bin\Debug\Easier.application
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\bin\Debug\Easier.exe
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\bin\Debug\Easier.pdb
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.AboutEasier.resources
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.ActReq.resources
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Authorization.resources
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Componer.resources
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Descomponer.resources
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Estadisticas.resources
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.FCReport.resources
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Form1.resources
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Imprimir.resources
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Init.resources
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Properties.Resources.resources
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Salir.resources
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.csproj.GenerateResource.Cache
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\RdlCompile.cache
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\RdlCompile.compiled
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\Easier.exe.manifest
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\Easier.application
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\Easier.exe
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\Easier.pdb
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\bin\Debug\Easier.exe.config
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\bin\Debug\Easier.exe.manifest
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\bin\Debug\Easier.application
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\bin\Debug\Easier.exe
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\bin\Debug\Easier.pdb
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\bin\Debug\UMConvert.dll
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\bin\Debug\UMConvert.pdb
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.AboutEasier.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.ActReq.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Authorization.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Componer.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Descomponer.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Estadisticas.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.FCReport.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Form1.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Imprimir.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Init.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Properties.Resources.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Salir.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.csproj.GenerateResource.Cache
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\RdlCompile.cache
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\RdlCompile.compiled
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\Easier.exe.manifest
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\Easier.application
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\Easier.exe
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\Easier.pdb
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\bin\Debug\Easier.exe.config
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\bin\Debug\Easier.exe.manifest
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\bin\Debug\Easier.application
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\bin\Debug\Easier.exe
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\bin\Debug\Easier.pdb
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\bin\Debug\UMConvert.dll
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\bin\Debug\UMConvert.pdb
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.AboutEasier.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.ActReq.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Authorization.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Componer.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Descomponer.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Estadisticas.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.FCReport.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Form1.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Imprimir.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Init.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Properties.Resources.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.Salir.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\MLB.csproj.GenerateResource.Cache
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\RdlCompile.cache
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\RdlCompile.compiled
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\Easier.exe.manifest
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\Easier.application
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\Easier.exe
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\MLB\obj\Debug\Easier.pdb
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\bin\Debug\Easier.exe.config
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\Easier.exe
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\Easier.pdb
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\bin\Debug\Easier.exe.manifest
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\bin\Debug\Easier.application
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\bin\Debug\Easier.exe
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\bin\Debug\Easier.pdb
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\bin\Debug\UMConvert.dll
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\bin\Debug\UMConvert.pdb
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.AboutEasier.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.ActReq.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.Authorization.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.Componer.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.Descomponer.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.Estadisticas.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.FCReport.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.Form1.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.Imprimir.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.Init.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.Properties.Resources.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.Salir.resources
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.csproj.GenerateResource.Cache
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\RdlCompile.cache
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\RdlCompile.compiled
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\Easier.exe.manifest
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\Easier.application
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\bin\Debug\Easier.exe.config
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\Easier.exe
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\Easier.pdb
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\bin\Debug\Easier.exe.manifest
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\bin\Debug\Easier.application
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\bin\Debug\Easier.exe
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\bin\Debug\Easier.pdb
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\bin\Debug\UMConvert.dll
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\bin\Debug\UMConvert.pdb
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.AboutEasier.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.ActReq.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.Authorization.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.Componer.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.Descomponer.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.Estadisticas.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.FCReport.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.Form1.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.Imprimir.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.Init.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.Properties.Resources.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.Salir.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\MLB.csproj.GenerateResource.Cache
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\RdlCompile.cache
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\RdlCompile.compiled
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\Easier.exe.manifest
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE sql\MLB\MLB\obj\Debug\Easier.application

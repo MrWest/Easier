@@ -1,0 +1,16 @@
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\Statics\bin\Debug\Statics.exe
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\Statics\bin\Debug\Statics.pdb
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\Statics\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\Statics\obj\Debug\Statics.Form1.resources
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\Statics\obj\Debug\Statics.Properties.Resources.resources
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\Statics\obj\Debug\Statics.csproj.GenerateResource.Cache
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\Statics\obj\Debug\Statics.exe
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\Statics\obj\Debug\Statics.pdb
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\Statics\bin\Debug\Statics.exe
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\Statics\bin\Debug\Statics.pdb
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\Statics\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\Statics\obj\Debug\Statics.Form1.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\Statics\obj\Debug\Statics.Properties.Resources.resources
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\Statics\obj\Debug\Statics.csproj.GenerateResource.Cache
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\Statics\obj\Debug\Statics.exe
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\Statics\obj\Debug\Statics.pdb

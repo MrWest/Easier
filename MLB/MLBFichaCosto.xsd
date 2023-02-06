@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MLBFichaCosto" targetNamespace="http://tempuri.org/MLBFichaCosto.xsd" xmlns:mstns="http://tempuri.org/MLBFichaCosto.xsd" xmlns="http://tempuri.org/MLBFichaCosto.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="MLBConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MLBConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.MLB.Properties.Settings.GlobalReference.Default.MLBConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PFichaCostoTableAdapter" GeneratorDataComponentClassName="PFichaCostoTableAdapter" Name="PFichaCosto" UserDataComponentName="PFichaCostoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MLBConnectionString1 (Settings)" DbObjectName="MLB.dbo.PFichaCosto" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT EProducto, Raciones, Producto, UM, Norma, Cantidad, Precio, Importe FROM dbo.PFichaCosto</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="EProducto" DataSetColumn="EProducto" />
+              <Mapping SourceColumn="Raciones" DataSetColumn="Raciones" />
+              <Mapping SourceColumn="Producto" DataSetColumn="Producto" />
+              <Mapping SourceColumn="UM" DataSetColumn="UM" />
+              <Mapping SourceColumn="Norma" DataSetColumn="Norma" />
+              <Mapping SourceColumn="Cantidad" DataSetColumn="Cantidad" />
+              <Mapping SourceColumn="Precio" DataSetColumn="Precio" />
+              <Mapping SourceColumn="Importe" DataSetColumn="Importe" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MLBFichaCosto" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="MLBFichaCosto" msprop:Generator_UserDSName="MLBFichaCosto" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PFichaCosto" msprop:Generator_UserTableName="PFichaCosto" msprop:Generator_RowDeletedName="PFichaCostoRowDeleted" msprop:Generator_TableClassName="PFichaCostoDataTable" msprop:Generator_RowChangedName="PFichaCostoRowChanged" msprop:Generator_RowClassName="PFichaCostoRow" msprop:Generator_RowChangingName="PFichaCostoRowChanging" msprop:Generator_RowEvArgName="PFichaCostoRowChangeEvent" msprop:Generator_RowEvHandlerName="PFichaCostoRowChangeEventHandler" msprop:Generator_TablePropName="PFichaCosto" msprop:Generator_TableVarName="tablePFichaCosto" msprop:Generator_RowDeletingName="PFichaCostoRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EProducto" msprop:Generator_UserColumnName="EProducto" msprop:Generator_ColumnPropNameInRow="EProducto" msprop:Generator_ColumnVarNameInTable="columnEProducto" msprop:Generator_ColumnPropNameInTable="EProductoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Raciones" msprop:Generator_UserColumnName="Raciones" msprop:Generator_ColumnPropNameInRow="Raciones" msprop:Generator_ColumnVarNameInTable="columnRaciones" msprop:Generator_ColumnPropNameInTable="RacionesColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Producto" msprop:Generator_UserColumnName="Producto" msprop:Generator_ColumnPropNameInRow="Producto" msprop:Generator_ColumnVarNameInTable="columnProducto" msprop:Generator_ColumnPropNameInTable="ProductoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UM" msprop:Generator_UserColumnName="UM" msprop:Generator_ColumnPropNameInRow="UM" msprop:Generator_ColumnVarNameInTable="columnUM" msprop:Generator_ColumnPropNameInTable="UMColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Norma" msprop:Generator_UserColumnName="Norma" msprop:Generator_ColumnPropNameInRow="Norma" msprop:Generator_ColumnVarNameInTable="columnNorma" msprop:Generator_ColumnPropNameInTable="NormaColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Cantidad" msprop:Generator_UserColumnName="Cantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Precio" msprop:Generator_UserColumnName="Precio" msprop:Generator_ColumnPropNameInRow="Precio" msprop:Generator_ColumnVarNameInTable="columnPrecio" msprop:Generator_ColumnPropNameInTable="PrecioColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Importe" msprop:Generator_UserColumnName="Importe" msprop:Generator_ColumnPropNameInRow="Importe" msprop:Generator_ColumnVarNameInTable="columnImporte" msprop:Generator_ColumnPropNameInTable="ImporteColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

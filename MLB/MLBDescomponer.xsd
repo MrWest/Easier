@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MLBDescomponer" targetNamespace="http://tempuri.org/MLBDescomponer.xsd" xmlns:mstns="http://tempuri.org/MLBDescomponer.xsd" xmlns="http://tempuri.org/MLBDescomponer.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="MLBConnectionString3" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MLBConnectionString3 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.MLB.Properties.Settings.GlobalReference.Default.MLBConnectionString3" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="MLBConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MLBConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.MLB.Properties.Settings.GlobalReference.Default.MLBConnectionString2" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PDescomponerTableAdapter" GeneratorDataComponentClassName="PDescomponerTableAdapter" Name="PDescomponer" UserDataComponentName="PDescomponerTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MLBConnectionString2 (Settings)" DbObjectName="MLB.dbo.PDescomponer" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT Producto, UM, PrecIn, Cantidad, Importe, Cuenta, Descrip, Porcient, Unidad, Moneda, Date FROM dbo.PDescomponer Order By Id</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Producto" DataSetColumn="Producto" />
+              <Mapping SourceColumn="UM" DataSetColumn="UM" />
+              <Mapping SourceColumn="PrecIn" DataSetColumn="PrecIn" />
+              <Mapping SourceColumn="Cantidad" DataSetColumn="Cantidad" />
+              <Mapping SourceColumn="Importe" DataSetColumn="Importe" />
+              <Mapping SourceColumn="Cuenta" DataSetColumn="Cuenta" />
+              <Mapping SourceColumn="Descrip" DataSetColumn="Descrip" />
+              <Mapping SourceColumn="Porcient" DataSetColumn="Porcient" />
+              <Mapping SourceColumn="Unidad" DataSetColumn="Unidad" />
+              <Mapping SourceColumn="Moneda" DataSetColumn="Moneda" />
+              <Mapping SourceColumn="Date" DataSetColumn="Date" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MLBDescomponer" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="MLBDescomponer" msprop:Generator_DataSetName="MLBDescomponer" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PDescomponer" msprop:Generator_UserTableName="PDescomponer" msprop:Generator_RowDeletedName="PDescomponerRowDeleted" msprop:Generator_RowChangedName="PDescomponerRowChanged" msprop:Generator_RowClassName="PDescomponerRow" msprop:Generator_RowChangingName="PDescomponerRowChanging" msprop:Generator_RowEvArgName="PDescomponerRowChangeEvent" msprop:Generator_RowEvHandlerName="PDescomponerRowChangeEventHandler" msprop:Generator_TableClassName="PDescomponerDataTable" msprop:Generator_TableVarName="tablePDescomponer" msprop:Generator_RowDeletingName="PDescomponerRowDeleting" msprop:Generator_TablePropName="PDescomponer">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Producto" msprop:Generator_UserColumnName="Producto" msprop:Generator_ColumnPropNameInRow="Producto" msprop:Generator_ColumnVarNameInTable="columnProducto" msprop:Generator_ColumnPropNameInTable="ProductoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UM" msprop:Generator_UserColumnName="UM" msprop:Generator_ColumnPropNameInRow="UM" msprop:Generator_ColumnVarNameInTable="columnUM" msprop:Generator_ColumnPropNameInTable="UMColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrecIn" msprop:Generator_UserColumnName="PrecIn" msprop:Generator_ColumnPropNameInRow="PrecIn" msprop:Generator_ColumnVarNameInTable="columnPrecIn" msprop:Generator_ColumnPropNameInTable="PrecInColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Cantidad" msprop:Generator_UserColumnName="Cantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Importe" msprop:Generator_UserColumnName="Importe" msprop:Generator_ColumnPropNameInRow="Importe" msprop:Generator_ColumnVarNameInTable="columnImporte" msprop:Generator_ColumnPropNameInTable="ImporteColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Cuenta" msprop:Generator_UserColumnName="Cuenta" msprop:Generator_ColumnPropNameInRow="Cuenta" msprop:Generator_ColumnVarNameInTable="columnCuenta" msprop:Generator_ColumnPropNameInTable="CuentaColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Descrip" msprop:Generator_UserColumnName="Descrip" msprop:Generator_ColumnPropNameInRow="Descrip" msprop:Generator_ColumnVarNameInTable="columnDescrip" msprop:Generator_ColumnPropNameInTable="DescripColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Porcient" msprop:Generator_UserColumnName="Porcient" msprop:Generator_ColumnPropNameInRow="Porcient" msprop:Generator_ColumnVarNameInTable="columnPorcient" msprop:Generator_ColumnPropNameInTable="PorcientColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Unidad" msprop:Generator_UserColumnName="Unidad" msprop:Generator_ColumnPropNameInRow="Unidad" msprop:Generator_ColumnVarNameInTable="columnUnidad" msprop:Generator_ColumnPropNameInTable="UnidadColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Moneda" msprop:Generator_UserColumnName="Moneda" msprop:Generator_ColumnPropNameInRow="Moneda" msprop:Generator_ColumnVarNameInTable="columnMoneda" msprop:Generator_ColumnPropNameInTable="MonedaColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Date" msprop:Generator_UserColumnName="Date" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInTable="DateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

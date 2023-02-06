@@ -1,0 +1,15 @@
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\UMConvert\bin\Debug\UMConvert.dll
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\UMConvert\bin\Debug\UMConvert.pdb
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\UMConvert\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\UMConvert\obj\Debug\UMConvert.dll
+C:\Documents and Settings\KidWest\Escritorio\Desktop\Test Unit\HERE\MLB\UMConvert\obj\Debug\UMConvert.pdb
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\UMConvert\bin\Debug\UMConvert.dll
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\UMConvert\bin\Debug\UMConvert.pdb
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\UMConvert\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\UMConvert\obj\Debug\UMConvert.dll
+C:\Users\Enrike\Desktop\Desktop\Test Unit\HERE\MLB\UMConvert\obj\Debug\UMConvert.pdb
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\UMConvert\bin\Debug\UMConvert.dll
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\UMConvert\bin\Debug\UMConvert.pdb
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\UMConvert\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\UMConvert\obj\Debug\UMConvert.dll
+C:\Users\KidWest\Desktop\Desktop\Test Unit\HERE\MLB\UMConvert\obj\Debug\UMConvert.pdb

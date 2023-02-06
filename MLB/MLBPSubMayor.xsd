@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MLBPSubMayor" targetNamespace="http://tempuri.org/MLBPSubMayor.xsd" xmlns:mstns="http://tempuri.org/MLBPSubMayor.xsd" xmlns="http://tempuri.org/MLBPSubMayor.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="MLBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MLBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.MLB.Properties.Settings.GlobalReference.Default.MLBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PSubMayorTableAdapter" GeneratorDataComponentClassName="PSubMayorTableAdapter" Name="PSubMayor" UserDataComponentName="PSubMayorTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MLBConnectionString (Settings)" DbObjectName="MLB.dbo.PSubMayor" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Day, Month, SaldoInicial, Entrada, Salida, Traslado, SaldoFinal, CompRamal, RDate FROM dbo.PSubMayor</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Day" DataSetColumn="Day" />
+              <Mapping SourceColumn="Month" DataSetColumn="Month" />
+              <Mapping SourceColumn="SaldoInicial" DataSetColumn="SaldoInicial" />
+              <Mapping SourceColumn="Entrada" DataSetColumn="Entrada" />
+              <Mapping SourceColumn="Salida" DataSetColumn="Salida" />
+              <Mapping SourceColumn="Traslado" DataSetColumn="Traslado" />
+              <Mapping SourceColumn="SaldoFinal" DataSetColumn="SaldoFinal" />
+              <Mapping SourceColumn="CompRamal" DataSetColumn="CompRamal" />
+              <Mapping SourceColumn="RDate" DataSetColumn="RDate" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MLBPSubMayor" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="MLBPSubMayor" msprop:Generator_UserDSName="MLBPSubMayor" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PSubMayor" msprop:Generator_UserTableName="PSubMayor" msprop:Generator_RowDeletedName="PSubMayorRowDeleted" msprop:Generator_TableClassName="PSubMayorDataTable" msprop:Generator_RowChangedName="PSubMayorRowChanged" msprop:Generator_RowClassName="PSubMayorRow" msprop:Generator_RowChangingName="PSubMayorRowChanging" msprop:Generator_RowEvArgName="PSubMayorRowChangeEvent" msprop:Generator_RowEvHandlerName="PSubMayorRowChangeEventHandler" msprop:Generator_TablePropName="PSubMayor" msprop:Generator_TableVarName="tablePSubMayor" msprop:Generator_RowDeletingName="PSubMayorRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Day" msprop:Generator_UserColumnName="Day" msprop:Generator_ColumnPropNameInRow="Day" msprop:Generator_ColumnVarNameInTable="columnDay" msprop:Generator_ColumnPropNameInTable="DayColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Month" msprop:Generator_UserColumnName="Month" msprop:Generator_ColumnPropNameInRow="Month" msprop:Generator_ColumnVarNameInTable="columnMonth" msprop:Generator_ColumnPropNameInTable="MonthColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SaldoInicial" msprop:Generator_UserColumnName="SaldoInicial" msprop:Generator_ColumnPropNameInRow="SaldoInicial" msprop:Generator_ColumnVarNameInTable="columnSaldoInicial" msprop:Generator_ColumnPropNameInTable="SaldoInicialColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Entrada" msprop:Generator_UserColumnName="Entrada" msprop:Generator_ColumnPropNameInRow="Entrada" msprop:Generator_ColumnVarNameInTable="columnEntrada" msprop:Generator_ColumnPropNameInTable="EntradaColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Salida" msprop:Generator_UserColumnName="Salida" msprop:Generator_ColumnPropNameInRow="Salida" msprop:Generator_ColumnVarNameInTable="columnSalida" msprop:Generator_ColumnPropNameInTable="SalidaColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Traslado" msprop:Generator_UserColumnName="Traslado" msprop:Generator_ColumnPropNameInRow="Traslado" msprop:Generator_ColumnVarNameInTable="columnTraslado" msprop:Generator_ColumnPropNameInTable="TrasladoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SaldoFinal" msprop:Generator_UserColumnName="SaldoFinal" msprop:Generator_ColumnPropNameInRow="SaldoFinal" msprop:Generator_ColumnVarNameInTable="columnSaldoFinal" msprop:Generator_ColumnPropNameInTable="SaldoFinalColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CompRamal" msprop:Generator_UserColumnName="CompRamal" msprop:Generator_ColumnPropNameInRow="CompRamal" msprop:Generator_ColumnVarNameInTable="columnCompRamal" msprop:Generator_ColumnPropNameInTable="CompRamalColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RDate" msprop:Generator_UserColumnName="RDate" msprop:Generator_ColumnPropNameInRow="RDate" msprop:Generator_ColumnVarNameInTable="columnRDate" msprop:Generator_ColumnPropNameInTable="RDateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
